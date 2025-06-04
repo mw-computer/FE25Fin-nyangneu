@@ -1,5 +1,129 @@
-@
-
-* {
-	
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  height: 60px;
+  background-color: #fff;
+  font-family: 'Noto Sans KR', sans-serif;
 }
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: #222;
+  flex-shrink: 0;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0 0 0 40px; 
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  flex-grow: 1;
+}
+
+.right-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.menu li {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.highlight {
+  color: #2978ff;
+  position: relative;
+  top: -4px; 
+  font-weight: 700;
+  font-size: 12px; 
+}
+
+.external-link {
+  font-size: 14px;
+  margin-left: 4px;
+  user-select: none;
+}
+
+.right-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.text-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 6px 0;
+  border: none;
+  background: none;
+  transition: color 0.2s ease;
+}
+
+.text-link:hover {
+  color: #2978ff;
+}
+
+.login-btn {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #000;
+  transition: background-color 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.icon-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  padding: 40px 0;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #222;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.icon-box {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.icon-box img {
+  width: 32px;
+  height: 32px;
+}
+
